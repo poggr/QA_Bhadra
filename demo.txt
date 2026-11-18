@@ -1,0 +1,29 @@
+demo file
+
+'''
+…or create a new repository on the command line
+echo "# QA_Bhadra" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/poggr/QA_Bhadra.git
+git push -u origin main
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/poggr/QA_Bhadra.git
+git branch -M main
+git push -u origin main
+
+git add . (note: for all)
+
+git commit -m "fix: Api automatiom"
+
+git commit -m "feat: new updat"    
+'''
+
+#if you need to add the new file made to the repo
+git add .
+git ccommit -m "msg"
+git push
+
