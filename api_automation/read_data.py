@@ -12,5 +12,5 @@ status_code = response.status_code
 #     print("The request failed with status code: ", status_code)
 
 
-assert status_code == 200, "The status code was not 300."
+assert status_code == 200, "The status code was not 200."
 print("Request was successful")
