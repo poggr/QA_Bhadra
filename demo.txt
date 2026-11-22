@@ -19,11 +19,52 @@ git add . (note: for all)
 
 git commit -m "fix: Api automatiom"
 
-git commit -m "feat: new updat"    
+git commit -m "feat: new updat"   
+
+#to see branches
+git branch
+
+#to create new branch
+git branch branch_name
+
+#to switch to different branches
+git checkout branch_name
 '''
-
+[
 #if you need to add the new file made to the repo
+1. Add new and modified files
 git add .
-git ccommit -m "msg"
-git push
 
+2. Commit your changes
+git commit -m "Added new files"
+
+3. Push changes to GitHub
+git push
+]
+
+[
+##to update the branches
+git checkout bidushi
+git add .
+git commit -m "bidushi pushed"
+git push origin bidushi
+git pull
+
+Now for pull in git hub use this,
+-Create a Pull Request on GitHub
+-Merge the Pull Request
+-confirm merge
+-Switch back to your local main branch
+
+
+[For using in terminal this]
+##Merge bidushi into main
+
+git checkout main
+git pull origin main (# Get latest changes from GitHub)
+git merge bidushi (# Merge bidushi into main)
+git push origin main (# Push updated main to GitHub)
+]
+
+#to check the status
+git status
